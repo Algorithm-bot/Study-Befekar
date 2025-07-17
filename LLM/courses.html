@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canvas LMS Clone - Courses</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/courses.css">
+  
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+      <button id="closeSidebar" class="close-sidebar" style="display:none">&times;</button>
+      <div class="logo">📚 Canvas</div>
+      <ul class="nav-links">
+        <li><a href="index.html">🏠 Dashboard</a></li>
+        <li><a href="#" class="active">📘 Courses</a></li>
+        <li><a href="calender.html">🗓 Calendar</a></li>
+        <li><a href="inbox.html">📥 Inbox</a></li>
+        <li><a href="help.html">❓ Help</a></li>
+      </ul>
+    </nav>
+
+    <!-- Mobile Hamburger -->
+    <button class="hamburger" id="hamburger">☰</button>
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Header -->
+      <header class="header">
+        <h1>All Courses</h1>
+        <span id="date"></span>
+      </header>
+
+      <!-- Course List -->
+      <section class="courses">
+        <div class="course-grid" id="allCourseGrid">
+          <!-- JS will inject all course cards here -->
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <script src="script.js"></script>
+  <script src="courses.js"></script>
+</body>
+</html>

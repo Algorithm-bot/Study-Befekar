@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canvas LMS Clone - Help</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/help.css">
+ 
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+      <button id="closeSidebar" class="close-sidebar" style="display:none">&times;</button>
+      <div class="logo">📚 Canvas</div>
+      <ul class="nav-links">
+        <li><a href="index.html">🏠 Dashboard</a></li>
+        <li><a href="courses.html">📘 Courses</a></li>
+        <li><a href="calender.html">🗓 Calendar</a></li>
+        <li><a href="inbox.html">📥 Inbox</a></li>
+        <li><a href="#" class="active">❓ Help</a></li>
+      </ul>
+    </nav>
+
+    <!-- Mobile Hamburger -->
+    <button class="hamburger" id="hamburger">☰</button>
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Header -->
+      <header class="header">
+        <h1>Help & Support</h1>
+        <span id="date"></span>
+      </header>
+
+      <!-- Help Section -->
+      <section class="help-section">
+        <div class="help-form-container">
+          <div class="help-form-title">Contact Support</div>
+          <form class="help-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type your help message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <script src="script.js"></script>
+  </body>
+</html> 

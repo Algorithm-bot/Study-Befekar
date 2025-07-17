@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas LMS Clone - Calendar</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+    <div class="app">
+        <!-- Sidebar -->
+        <nav class="sidebar" id="sidebar">
+            <button id="closeSidebar" class="close-sidebar" style="display:none">&times;</button>
+            <div class="logo">📚 Canvas</div>
+            <ul class="nav-links">
+                <li><a href="index.html">🏠 Dashboard</a></li>
+                <li><a href="courses.html">📘 Courses</a></li>
+                <li><a href="#" class="active">🗓 Calendar</a></li>
+                <li><a href="inbox.html">📥 Inbox</a></li>
+                <li><a href="help.html">❓ Help</a></li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Hamburger -->
+        <button class="hamburger" id="hamburger">☰</button>
+
+        <!-- Main Content -->
+        <div class="main">
+            <!-- Header -->
+            <header class="header">
+                <h1>Calendar</h1>
+                <span id="date"></span>
+            </header>
+
+            <!-- Google Calendar Embed -->
+            <section class="calendar-section">
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FKolkata&showPrint=0&src=c2FoaWxzYXdhbnQ5MjlAZ21haWwuY29t&src=Y2xhc3Nyb29tMTE0MDIwNDE2MjY2Mjg4Nzk4NzI3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA5NjUyMTE0NzQ2ODY3OTI0MDA5QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTAyMzQ4ODQ4MzA1NDE4MTQwMzU4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA3NTE2Njc1MjU2NTU0OTIyNjMzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTEyNjQ5NTM1NzU0MzU5ODc0ODUxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4uaW5kaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=Y2xhc3Nyb29tMTA4MjE0NzQ3ODAxOTE4MDIwNDgwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTA0MDk1NTU5ODczNTE3Nzk2NzA3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y2xhc3Nyb29tMTExMjg2Mzk2NTY3MDE5MzM0MzI3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y19jbGFzc3Jvb205NTU0Yjc1MkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=Y2xhc3Nyb29tMTAwOTgwODA0MDU3MjU4MDUzNjQyQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039be5&color=%237986cb&color=%23f6bf26&color=%231967d2&color=%23137333&color=%23202124&color=%237986cb&color=%23c26401&color=%231967d2&color=%23202124&color=%23c26401&color=%231967d2"
+                    style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </section>
+        </div>
+    </div>
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>

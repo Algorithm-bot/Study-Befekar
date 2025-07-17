@@ -1,0 +1,65 @@
+    .inbox-section {
+      margin-top: 2rem;
+    }
+    .inbox-list {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+      padding: 0;
+      list-style: none;
+      max-width: 1900px;
+      margin: 0 auto;
+      border: 1.5px solid #e5e7eb; /* subtle border */
+    }
+    .inbox-item {
+      display: flex;
+      align-items: flex-start;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 1rem 1.5rem;
+      transition: background 0.18s, box-shadow 0.18s;
+      background: #f9fafb;
+      cursor: pointer;
+      
+    }
+    .inbox-item:last-child {
+      border-bottom: none;
+    }
+    .inbox-item:hover {
+      background: #f1f5f9;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      border-left: 3px solid #0077cc;
+    }
+    .inbox-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #e0e7ef;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-right: 1rem;
+      border: 1.5px solid #cbd5e1;
+    }
+    .inbox-content {
+      flex: 1;
+    }
+    .inbox-sender {
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+    }
+    .inbox-subject {
+      font-size: 1.05rem;
+      margin-bottom: 0.15rem;
+    }
+    .inbox-snippet {
+      color: #666;
+      font-size: 0.95rem;
+    }
+    .inbox-date {
+      color: #aaa;
+      font-size: 0.85rem;
+      margin-left: 1rem;
+      white-space: nowrap;
+    }

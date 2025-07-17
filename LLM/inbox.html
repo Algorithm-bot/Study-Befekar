@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canvas LMS Clone - Inbox</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/inbox.css">
+  
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+      <button id="closeSidebar" class="close-sidebar" style="display:none">&times;</button>
+      <div class="logo">📚 Canvas</div>
+      <ul class="nav-links">
+        <li><a href="index.html">🏠 Dashboard</a></li>
+        <li><a href="courses.html">📘 Courses</a></li>
+        <li><a href="calender.html">🗓 Calendar</a></li>
+        <li><a href="#" class="active">📥 Inbox</a></li>
+        <li><a href="help.html">❓ Help</a></li>
+      </ul>
+    </nav>
+
+    <!-- Mobile Hamburger -->
+    <button class="hamburger" id="hamburger">☰</button>
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Header -->
+      <header class="header">
+        <h1>Inbox</h1>
+        <span id="date"></span>
+      </header>
+
+      <!-- Inbox Section -->
+      <section class="inbox-section">
+        <ul class="inbox-list">
+          <li class="inbox-item">
+            <div class="inbox-avatar">AS</div>
+            <div class="inbox-content">
+              <div class="inbox-sender">Anjali Sharma</div>
+              <div class="inbox-subject">IELTS Class Reminder</div>
+              <div class="inbox-snippet">Don't forget about tomorrow's IELTS speaking practice session at 10 AM.</div>
+            </div>
+            <div class="inbox-date">Jul 16</div>
+          </li>
+          <li class="inbox-item">
+            <div class="inbox-avatar">RM</div>
+            <div class="inbox-content">
+              <div class="inbox-sender">Rohan Mehta</div>
+              <div class="inbox-subject">TOEFL Material Uploaded</div>
+              <div class="inbox-snippet">The TOEFL reading materials have been uploaded. Check the course portal.</div>
+            </div>
+            <div class="inbox-date">Jul 15</div>
+          </li>
+          <li class="inbox-item">
+            <div class="inbox-avatar">PD</div>
+            <div class="inbox-content">
+              <div class="inbox-sender">Priya Desai</div>
+              <div class="inbox-subject">GRE Test Scores</div>
+              <div class="inbox-snippet">Your GRE mock test scores are now available. Great improvement!</div>
+            </div>
+            <div class="inbox-date">Jul 13</div>
+          </li>
+          <li class="inbox-item">
+            <div class="inbox-avatar">KM</div>
+            <div class="inbox-content">
+              <div class="inbox-sender">Karan Malhotra</div>
+              <div class="inbox-subject">GMAT Strategy Tips</div>
+              <div class="inbox-snippet">Please go through the GMAT verbal strategy slides before our next class.</div>
+            </div>
+            <div class="inbox-date">Jul 12</div>
+          </li>
+          <li class="inbox-item">
+            <div class="inbox-avatar">NI</div>
+            <div class="inbox-content">
+              <div class="inbox-sender">Neha Iyer</div>
+              <div class="inbox-subject">PET Mock Test Reminder</div>
+              <div class="inbox-snippet">You are scheduled for the PET mock test this Saturday. Be prepared!</div>
+            </div>
+            <div class="inbox-date">Jul 11</div>
+          </li>
+          <li class="inbox-item">
+            <div class="inbox-avatar">DS</div>
+            <div class="inbox-content">
+              <div class="inbox-sender">Divya Sinha</div>
+              <div class="inbox-subject">Course Orientation</div>
+              <div class="inbox-snippet">Welcome to the program! Our orientation will be held on Monday at 9 AM.</div>
+            </div>
+            <div class="inbox-date">Jul 10</div>
+          </li>
+        </ul>
+      </section>
+      
+    </div>
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <script src="script.js"></script>
+  </body>
+  </html> 

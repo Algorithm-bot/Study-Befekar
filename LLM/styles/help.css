@@ -1,0 +1,59 @@
+.help-section {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .help-form-container {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 2.5rem 2rem 2rem 2rem;
+    max-width: 480px;
+    width: 100%;
+    border: 1.5px solid #e5e7eb;
+  }
+  .help-form-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+  .help-form label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+    color: #222;
+  }
+  .help-form input,
+  .help-form textarea {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    margin-bottom: 1.1rem;
+    border: 1.2px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #f9fafb;
+    resize: none;
+    transition: border 0.18s;
+  }
+  .help-form input:focus,
+  .help-form textarea:focus {
+    border: 1.5px solid #0077cc;
+    outline: none;
+    background: #fff;
+  }
+  .help-form button {
+    width: 100%;
+    background: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 0.85rem 0;
+    border-radius: 8px;
+    font-size: 1.08rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.18s;
+  }
+  .help-form button:hover {
+    background: #005fa3;
+  }

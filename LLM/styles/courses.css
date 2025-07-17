@@ -1,0 +1,45 @@
+.course-search {
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+  }
+  
+  .course-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-card h3 {
+    margin: 0 0 0.5rem;
+  }
+  
+  .course-card p {
+    margin: 0.25rem 0;
+    font-size: 0.95rem;
+  }
+  
+  .join-btn {
+    margin-top: 0.75rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .join-btn:hover {
+    background-color: #005fa3;
+  }

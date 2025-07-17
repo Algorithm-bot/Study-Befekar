@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canvas LMS Clone - Dashboard</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+      <button id="closeSidebar" class="close-sidebar" style="display:none">&times;</button>
+      <div class="logo">📚 Canvas </div>
+      <ul class="nav-links">
+        <li><a href="#" class="active">🏠 Dashboard</a></li>
+        <li><a href="courses.html">📘 Courses</a></li>
+        <li><a href="calender.html">🗓 Calendar</a></li>
+        <li><a href="inbox.html">📥 Inbox</a></li>
+        <li><a href="help.html">❓ Help</a></li>
+      </ul>
+    </nav>
+
+    <!-- Mobile Hamburger -->
+    <button class="hamburger" id="hamburger">☰</button>
+
+    <!-- Main Content -->
+    <div class="main">
+      <!-- Header -->
+      <header class="header">
+        <h1>Welcome, Student Name</h1>
+        <span id="date"></span>
+      </header>
+
+      <!-- Notification Banner -->
+      <div class="notification">
+        📢 Reminder: Next assignment is due in 2 days!
+      </div>
+
+      <!-- Course Grid -->
+      <section class="courses">
+        <h2>Your Courses</h2>
+        <div class="course-grid" id="courseGrid">
+          <!-- JS will inject course cards here -->
+        </div>
+      </section>
+
+      <!-- To-Do List -->
+      <section class="todo">
+        <h2>To-Do List</h2>
+        <ul id="todo-list">
+          <!-- JS will inject tasks here -->
+        </ul>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
